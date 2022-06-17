@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+	padding:0;
+	
+}
+header
+{
+	background-image: (Banner - Copy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+ .btn {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  float:right-side;
+}
+
+
+ .btn:hover {
+  background-color: red;
+}
+
+nav: relative{
+top:350px;
+}
+
+div.navMenu a{
+display: block;
+width:180px;
+border-radius: 10px;
+-mz-boder-radius: 10px;
+-webkit-border: 10px;
+  float:left;
+  color: white;
+  text-align: center;
+  padding:1px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color:#70867f
+}
+
+div.navMenu ul{list-style-type:left;
+padding: 5px;
+margin:7px;
+
+}
+
+div.navMenu li{
+padding:1px;
+margin:auto;
+}
+
+div a:hover{
+ background-color: #CC00CC;
+ color:#CCFF00;
+}
+a:active{
+ background-color: purple;
+ color: white;
+}
+
+	
+body{
+background-color: PINK;
+font-family: serif;
+background-image: Banner.jpg;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+ iframe 
+ {
+	padding-left: 10px;
+	text-align: left;
+    float: right;
+    width: 350px;
+    border: 5px solid green;
+    padding: 10px;
+    margin: 7px;
+	background-color:lightgrey;
+	border-radius: 30px;
+   
+ }
+ 
+ 
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FF9933;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position:center;
+}
+
+input[type=submit]:hover {
+  background-color: #FF00CC;
+  position:center;
+}
+
+container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+form{
+	background-color: #66CCCC;
+	 border-radius: 10px;
+	 box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+	 padding-left: 20px;
+	text-align: left;
+    float: left;
+    width: 350px;
+    border: ;
+    padding: 10px;
+    margin: 10px
+	 
+	 
+	 
+}
+
+ 
+ h2{
+  background-color:white;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  position:relative;
+  cursor: pointer;
+ }
+ 
+
+ footer {
+  position:relative;
+  top:450px;
+  background-color: #ddebd4;
+  width: 100%;
+  color: #333;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   padding: 5px;
+  text-align: center;
+   
+}
+button{
+	display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 200px;
+  font-weight: bold;
+  background: orange;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid orange;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+ p{
+
+	padding-left: 10px;
+	text-align: left;
+    float: right;
+	background-color: lightgrey;
+    width: 350px;
+    border: 5px solid green;
+	border-radius: 5px;
+    padding: 10px;
+    margin: 7px;
+	
+}
+ h3 {
+	padding-left: 10px;
+	text-align: left;
+    float: left;
+	background-color: lightgrey;
+    width: 350px;
+    border: 10px solid #78c7ae;
+	border-radius: 5px;
+    padding: 10px;
+    margin: 7px;
+	position: left
+	
+}   
+
+.container {
+  position: relative;
+  width: 100%;
+   max-width: 300px;
+    border-radius: 20px;
+}
+
+.image {
+  display: block;
+  width:100%;
+  height: auto;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position:right;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.overlay {
+  position: relative; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background:  #78c9ae;
+  color: #f1f1f1; 
+  width: 120%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+ 
